@@ -1,1 +1,50 @@
 git initi . ==> creates git project
+git add file_name ==> add given file name
+git add file1 file 2 file3 ==> adds multiple files that are passed
+git add .  ==> Adds files downward recurssively from current directory
+git add -A ==> Adds all the files that are chaged / untracked
+
+git status
+
+git log ==> to check what all changes are committed.
+git show <commit hash> ==> shows what changes are committed in that commit 
+git diff ==> shows the changes 
+
+git rm --cached -r filename ==> takes out the file from staging ares
+
+git restore filename ==> revert the changes
+
+git commit --amend -m "added amended body"  ==> change something in commit 
+
+
+git branch -M main  ==> create branch named main
+
+git remote add origin git@github.com:szirli/git_tutorial.git  ==> adds origin / remote url to project
+
+git push -u origin main  ==> pushes local changes / new project to remote repo
+
+git remote remove origin ==> removes remote url that has been added on line no. 22
+
+
+git pull
+
+git branch ==> diplays current branch
+
+git branch -r ==> displays branches from remote repo
+
+git branch -a ==> all branches from local as well as from remote repo
+
+git checkout <branch-name> ==> to switch to branch
+
+git checkout - ==> switch back to Main / master branch
+
+git checkout -b to-delete  ==> creates a branch named to-delete and switches in one go
+
+git branch -d to-delete ==> deletes branch named to-delete
+
+git log --oneline  ==> 
+
+git stash ==> saves the local changes somewhere in temp
+
+git checkout master
+
