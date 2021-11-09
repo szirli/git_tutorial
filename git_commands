@@ -1,1 +1,2 @@
-git initi . ==> creates git project
+git initi .                                           ==> creates git project
+git config --get remote.origin.url                    ==> Prints origin url of the local repo    
