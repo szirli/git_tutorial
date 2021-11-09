@@ -1,2 +1,5 @@
 git initi .                                           ==> creates git project
 git config --get remote.origin.url                    ==> Prints origin url of the local repo    
+git remote add origin URL                             ==> Sets the origin url of the local repo
+git branch -M main                                    ==> Modifies the branch name to main
+git push -u origin main                               ==> pushes local changes to upstream origin main
